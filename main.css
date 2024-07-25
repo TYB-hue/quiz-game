@@ -90,8 +90,11 @@ button:hover{
     color: rgb(1, 20, 124);
 }
 .buttons{
+    position: relative;
      justify-content: space-around;
      margin-left: 10%;
+     width: 70%;
+     left: 12%;
 }
 
 #Submit{
@@ -151,4 +154,13 @@ padding-top: 5%;
     transition: 0.5s;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+
+
+@media (max-width: 749px) {
+    button{
+        width: 80px;
+        height: 40px;
+    }
 }
